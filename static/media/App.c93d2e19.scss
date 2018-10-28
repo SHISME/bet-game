@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.lottery-machine {
+  display: flex;
+}
+
+.lottery-machine-item {
+
+}
+
+
+.best-table{
+  width: 100%;
+  color: white;
+  font-size: 12px;
+  font-weight: lighter;
+  text-align: left;
+  tr{
+    padding:0 5px;
+    td{
+       padding: 5px;
+    }
+  }
+  thead{
+    font-weight: bolder;
+    text-align: center;
+  }
+  tbody{
+    tr{
+      &:nth-child(2n){
+        background-color:#311110;
+      }
+    }
+  }
+
+ }
